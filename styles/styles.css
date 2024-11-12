@@ -7,12 +7,7 @@ body {
 }
 
 header {
-    background-color: rgba(
-        0,
-        77,
-        49,
-        0.7
-    ); /* Fondo semitransparente para el header */
+    background-color: rgba(0, 77, 49, 0.7); /* Fondo semitransparente para el header */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -48,12 +43,7 @@ nav .nav-links a {
 section {
     padding: 40px 20px;
     text-align: center;
-    background-color: rgba(
-        255,
-        255,
-        255,
-        0.8
-    ); /* Fondo blanco semitransparente para las demás secciones */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para las demás secciones */
     border-radius: 10px;
 }
 
@@ -104,7 +94,6 @@ footer p {
 #intro {
     background-image: url("../images/amazonas.jpg"); /* URL de la imagen */
     background-size: cover; /* Ajusta la imagen para que cubra toda la sección */
-
     background-position: center; /* Centra la imagen */
     color: white; /* Asegúrate de que el texto sea legible */
     padding: 100px 20px; /* Ajusta el padding para darle espacio a la imagen */
@@ -140,24 +129,6 @@ footer p {
 
 .animal p {
     margin-top: 10px;
-}
-body {
-    font-family: "Arial", sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #004d31;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-header h1 {
-    margin: 0;
 }
 
 #animales {
@@ -225,19 +196,6 @@ header h1 {
     right: 10px;
 }
 
-footer {
-    background-color: #004d31;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-footer p {
-    margin: 0;
-}
 /* Estilos para el navbar */
 .navbar {
     background-color: #333;
@@ -258,21 +216,6 @@ footer p {
     color: black;
 }
 
-/* Estilos para el footer */
-footer {
-    background-color: #004d31;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-footer p {
-    margin: 0;
-}
-
 /* Estilo para la sección de bienvenida */
 .bienvenida {
     background-image: url("../images/amazonas.jpg"); /* Cambia la ruta a tu imagen */
@@ -286,12 +229,7 @@ footer p {
 .bienvenida .contenido-bienvenida {
     max-width: 800px;
     margin: 0 auto;
-    background-color: rgba(
-        0,
-        0,
-        0,
-        0.5
-    ); /* Fondo semitransparente para mejor legibilidad */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor legibilidad */
     padding: 20px;
 }
 
@@ -316,10 +254,12 @@ footer p {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .h2-story {
     font-size: 2rem;
     color: #004d31;
 }
+
 .fila {
     display: flex;
     align-items: center;
@@ -393,6 +333,7 @@ footer p {
 .link-colombia a:hover {
     text-decoration: underline;
 }
+
 /* Estilos generales del carrusel */
 .carrusel-especies {
     text-align: center;
@@ -421,6 +362,7 @@ footer p {
     padding: 20px;
     text-align: center;
 }
+
 .carta .texto {
     color: #333;
 }
@@ -431,6 +373,7 @@ footer p {
     color: #004d31;
     margin-bottom: 30px;
 }
+
 .carta img {
     width: 100%;
     height: auto;
@@ -461,6 +404,7 @@ button {
 button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
 .boton-conocer {
     background-color: #32a852;
     color: white;
@@ -551,48 +495,184 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-.reinos-biologicos .link-colombia p{
+.reinos-biologicos .link-colombia p {
     font-size: 1.5rem;
-    color: #004d31;
- 
+    color: #31dd9e;
 }
 
 .fuentes-informacion {
     text-align: center;
     padding: 60px 20px;
-    background-color: #ffffff;
-  }
-  
-  .fuentes-informacion h2 {
+    background-color: #ffffff52;
+}
+
+.fuentes-informacion h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
     color: #000000;
-  }
-  
-  .fuentes-informacion p {
+}
+
+.fuentes-informacion p {
     font-size: 1.1rem;
     margin-bottom: 30px;
     color: #000000;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  .logos-container {
+}
+
+.logos-container {
     display: flex;
     justify-content: center;
     gap: 40px;
-  }
-  
-  .logo-item img {
-    width: 120px;
+}
+
+.logo-item img {
+    width: 220px;
     height: auto;
-    filter: grayscale(100%); /* Aplicar escala de grises para un diseño más sutil */
     transition: filter 0.3s ease;
-  }
-  
-  .logo-item img:hover {
+}
+
+.logo-item img:hover {
     filter: grayscale(0); /* Color en hover */
-  }
-  
+}
+
+/* Media queries para hacer el diseño responsivo */
+@media (max-width: 1200px) {
+    .logo-item img {
+        width: 180px;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo-item img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-item img {
+        width: 120px;
+    }
+
+    nav .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .nav-links li {
+        margin: 10px 0;
+    }
+
+    .bienvenida {
+        padding: 50px 20px;
+    }
+
+    .bienvenida h2 {
+        font-size: 2rem;
+    }
+
+    .bienvenida p {
+        font-size: 1rem;
+    }
+
+    .storytelling {
+        padding: 40px 20px;
+    }
+
+    .h2-story {
+        font-size: 1.5rem;
+    }
+
+    .fila {
+        flex-direction: column;
+    }
+
+    .fila .texto,
+    .fila .imagen {
+        padding: 10px;
+    }
+
+    .fila img {
+        max-width: 100%;
+    }
+
+    .carrusel-especies {
+        padding: 40px 20px;
+    }
+
+    .carrusel-especies h2 {
+        font-size: 1.5rem;
+    }
+
+    .carta {
+        min-width: 250px;
+    }
+
+    .reinos-biologicos {
+        padding: 40px 20px;
+    }
+
+    .reinos-biologicos h2 {
+        font-size: 2rem;
+    }
+
+    .reinos-biologicos p {
+        font-size: 1rem;
+    }
+
+    .reino {
+        width: 100%;
+        max-width: none;
+    }
+
+    .reinos-imagen img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo-item img {
+        width: 100px;
+    }
+
+    nav .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    .bienvenida h2 {
+        font-size: 1.5rem;
+    }
+
+    .bienvenida p {
+        font-size: 0.9rem;
+    }
+
+    .h2-story {
+        font-size: 1.2rem;
+    }
+
+    .fila h2 {
+        font-size: 1.5rem;
+    }
+
+    .fila p {
+        font-size: 1rem;
+    }
+
+    .carrusel-especies h2 {
+        font-size: 1.2rem;
+    }
+
+    .carta {
+        min-width: 200px;
+    }
+
+    .reinos-biologicos h2 {
+        font-size: 1.5rem;
+    }
+
+    .reinos-biologicos p {
+        font-size: 0.9rem;
+    }
+}
